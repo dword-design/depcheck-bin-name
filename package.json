@@ -32,5 +32,6 @@
   },
   "publishConfig": {
     "access": "public"
-  }
+  },
+  "description": "Package that is used by depcheck-detector-bin-name."
 }
