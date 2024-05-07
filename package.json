@@ -1,6 +1,6 @@
 {
   "name": "depcheck-bin-name",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Package that is used by depcheck-detector-bin-name.",
   "repository": "dword-design/depcheck-bin-name",
   "funding": "https://github.com/sponsors/dword-design",
