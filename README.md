@@ -50,7 +50,7 @@
 <!-- /BADGES -->
 
 <!-- DESCRIPTION/ -->
-
+Package that is used by depcheck-detector-bin-name.
 <!-- /DESCRIPTION -->
 
 <!-- INSTALL/ -->
