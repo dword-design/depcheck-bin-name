@@ -1,3 +1,3 @@
-import taggedTemplateNoop from 'tagged-template-noop'
+import taggedTemplateNoop from 'tagged-template-noop';
 
-export default taggedTemplateNoop
+export default taggedTemplateNoop;
