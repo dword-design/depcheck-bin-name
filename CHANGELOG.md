@@ -1,3 +1,15 @@
+# [2.0.0](https://github.com/dword-design/depcheck-bin-name/compare/v1.0.1...v2.0.0) (2025-07-31)
+
+
+### Bug Fixes
+
+* lock file maintenance ([#11](https://github.com/dword-design/depcheck-bin-name/issues/11)) ([caef478](https://github.com/dword-design/depcheck-bin-name/commit/caef47877b4acdf0d9992efe9918391df5733e66))
+
+
+### BREAKING CHANGES
+
+* node.js >= 20
+
 ## [1.0.1](https://github.com/dword-design/depcheck-bin-name/compare/v1.0.0...v1.0.1) (2024-05-07)
 
 
