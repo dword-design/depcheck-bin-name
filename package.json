@@ -7,7 +7,14 @@
   "license": "MIT",
   "author": "Sebastian Landwehr <info@sebastianlandwehr.com>",
   "type": "module",
-  "exports": "./dist/index.js",
+  "exports": {
+    ".": {
+      "import": {
+        "default": "./dist/index.js",
+        "types": "./dist/index.d.ts"
+      }
+    }
+  },
   "main": "dist/index.js",
   "files": [
     "dist"
@@ -20,16 +27,20 @@
     "lint": "base lint",
     "prepare": "base prepare",
     "prepublishOnly": "base prepublishOnly",
-    "test": "base test"
+    "test": "base test",
+    "typecheck": "base typecheck",
+    "verify": "base verify"
   },
   "dependencies": {
     "tagged-template-noop": "^2.1.1"
   },
   "devDependencies": {
-    "@dword-design/base": "^11.0.9"
+    "@dword-design/base": "^15.2.3",
+    "@playwright/test": "^1.54.1"
   },
+  "packageManager": "pnpm@10.14.0+sha512.ad27a79641b49c3e481a16a805baa71817a04bbe06a38d17e60e2eaee83f6a146c6a688125f5792e48dd5ba30e7da52a5cda4c3992b9ccf333f9ce223af84748",
   "engines": {
-    "node": ">=18"
+    "node": ">=20"
   },
   "publishConfig": {
     "access": "public"
