@@ -1,3 +1,15 @@
+# [3.0.0](https://github.com/dword-design/depcheck-bin-name/compare/v2.0.0...v3.0.0) (2025-12-15)
+
+
+### Bug Fixes
+
+* update dependency @dword-design/base to v16 ([#32](https://github.com/dword-design/depcheck-bin-name/issues/32)) ([68e31b5](https://github.com/dword-design/depcheck-bin-name/commit/68e31b5678cf2dbccb086f210ef05e31a9e7ab59))
+
+
+### BREAKING CHANGES
+
+* node >= 22
+
 # [2.0.0](https://github.com/dword-design/depcheck-bin-name/compare/v1.0.1...v2.0.0) (2025-07-31)
 
 
